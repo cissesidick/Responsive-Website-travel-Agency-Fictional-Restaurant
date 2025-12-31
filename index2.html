@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TravelX Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">TravelX</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#travelNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="travelNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tours">Tours</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-overlay text-center text-white">
+    <h1>Explore the World</h1>
+    <p>Your adventure starts here</p>
+    <button class="btn btn-warning btn-lg">Book Now</button>
+  </div>
+</section>
+
+<section class="container section-padding" id="destinations">
+  <h2 class="text-center mb-4">Popular Destinations</h2>
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="card-img-top">
+        <div class="card-body">
+          <h5>Maldives</h5>
+          <p>Relax on beautiful beaches.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1548013146-72479768bada" class="card-img-top">
+        <div class="card-body">
+          <h5>Paris</h5>
+          <p>Discover romance and culture.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" class="card-img-top">
+        <div class="card-body">
+          <h5>Dubai</h5>
+          <p>Luxury and modern lifestyle.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container section-padding" id="tours">
+  <h2 class="text-center mb-4">Our Tours</h2>
+  <div class="accordion" id="tourAccordion">
+    <div class="accordion-item">
+      <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#tour1">
+        Beach Tour
+      </button>
+      <div id="tour1" class="accordion-collapse collapse show">
+        <div class="accordion-body">Enjoy sunny beaches and resorts.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container section-padding" id="contact">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <form class="col-md-6 mx-auto">
+    <input type="text" class="form-control mb-3" placeholder="Your Name">
+    <input type="email" class="form-control mb-3" placeholder="Your Email">
+    <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+    <button class="btn btn-primary w-100">Submit</button>
+  </form>
+</section>
+
+<footer class="footer text-center text-white">
+  © 2025 TravelX Agency
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
